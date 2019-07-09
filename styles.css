@@ -1,0 +1,188 @@
+
+
+/* HTML and Body styling */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/* Hero Image/CTA Styling */
+.main {
+	height: 600px;
+	width: 100%;
+	background-image: url(media/bg2.jpg);
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.cta {
+	text-align: center;
+	align-content: center;
+}
+
+.cta h1 {
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	font-family: 'Shrikhand', cursive;
+	font-family: 'Black Ops One', cursive;
+	font-size: 150px;
+	color: black;
+	text-shadow: rgb(200, 100, 60) 2px 2px 10px, purple 3px 3px 5px, rgb(200, 100, 60) 2px 2px 5px, rgb(200, 69, 100) 2px 2px 10px, rgb(200, 200, 60) 2px 2px 10px;
+}
+
+.cta h2 {
+	padding: 0; 
+	padding-top: 10px;
+	margin: 0;
+	margin-bottom: 40px;
+	color: black;
+	font-family: 'Shrikhand', sans-serif;
+	font-family: 'Black Ops One', cursive;
+	font-size: 58px;
+	text-shadow: rgb(200, 100, 60) 2px 2px 10px, purple 3px 3px 5px, rgb(200, 100, 60) 2px 2px 5px, rgb(200, 69, 100) 2px 2px 10px, rgb(200, 200, 60) 2px 2px 10px;
+}
+
+
+
+
+/* Button Styling */
+
+.btn {
+	height: 100px;
+	width: 270px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 30px;
+	color: white;	
+	background:linear-gradient(to top, rgb(240, 69, 50) 5%, rgb(255, 100, 150) 100%);
+	background-color: white;
+	border-radius: 50px;
+	border: solid black 1px;
+	text-shadow: 1px 1px 2px black;
+	box-shadow:inset 0px 0px 8px 3px black;
+	cursor: pointer;
+}
+
+
+.btn:hover {	
+	background:linear-gradient(to bottom, rgb(240, 69, 50) 5%, rgb(255, 200, 150) 5%, red 100%);
+	background-color: skyblue;
+	color: white;
+}
+
+
+
+
+/* Images Styling */
+.images {
+	margin-top: 25px;
+}
+
+.container {
+	height: 300px;
+	width: 33%;
+	margin-left: 2px;
+	margin-bottom: 25px;
+	float: left;
+	font-size: 40px;
+	font-family: 'Cabin Sketch', cursive;
+	text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+	font-style: italic;
+}
+
+#move {
+	background-image: url('media/move.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#move h1 {
+	margin: 0 0 40px 20px;
+	color: rgb(200, 100, 150);
+}
+
+#rest {
+	background-image: url('media/rest.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#rest h1 {
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 90px;
+	color: white;
+}
+
+#recover {
+	background-image: url('media/recover.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#recover h1 {
+	text-align: right;
+	padding: 150px 60px 0 0;
+	color: rgb(100, 150, 200);
+}
+
+
+
+
+
+/* Support Section Styling */
+
+.support {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	clear: both;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	height: 550px;
+	background-image: url('media/bg1.jpg');
+	background-position: bottom center;
+	background-size: cover;
+	text-align: center;
+}
+
+.support h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+	color: rgb(200, 100, 150);
+	font-size: 120px;
+	font-family: 'Shrikhand', sans-serif;
+	text-shadow: black 3px 3px 15px, rgb(200, 100, 150) 2px 2px 10px, purple 3px 3px 10px; 
+}
+
+.support button {
+	margin-bottom: 40px;
+}
+
+.text {
+	padding-top: 20px;
+	padding-right: 150px;
+}
+
+#stop {
+	padding-right: 200px;
+}
+
+.support p {
+	padding: 0;
+	margin: 0;
+	margin-top: 27px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: 'Anton', sans-serif;
+}
